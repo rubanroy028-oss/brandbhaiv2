@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Cookie Policy — BrandBhai Studio</title>
+  <meta name="description" content="Detailed explanation of essential, functional, analytics, Meta CAPI pixels, and advertising cookies used on brandbhai.in and client projects.">
+  <meta name="theme-color" content="#F5F3EE">
+  <link rel="canonical" href="https://brandbhai.in/cookies.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="BrandBhai">
+  <meta property="og:title" content="Cookie Policy — BrandBhai Studio">
+  <meta property="og:description" content="Transparent explanation of cookies, server-side tokens, and tracking technologies.">
+  <meta property="og:image" content="assets/img/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+
+  <!-- Theme + motion flags -->
+  <script>
+    (function () {
+      var d = document.documentElement, t;
+      try { t = localStorage.getItem('brandbhai_theme'); } catch (e) {}
+      if (!t) t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      d.setAttribute('data-theme', t);
+      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) { d.classList.add('no-anim'); return; }
+      d.classList.add('anim');
+      try {
+        if (sessionStorage.getItem('bb_pt')) { sessionStorage.removeItem('bb_pt'); d.classList.add('pt-in'); }
+        else if (!sessionStorage.getItem('bb_loaded')) d.classList.add('has-preloader');
+      } catch (e) {}
+      setTimeout(function () { if (!window.__bb) { d.classList.remove('anim', 'has-preloader', 'pt-in'); d.classList.add('no-anim'); } }, 3500);
+    })();
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,200..800&family=Geist:wght@300..700&family=Geist+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap">
+  <link rel="stylesheet" href="assets/css/style.css?v=23">
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.3.26/dist/lenis.min.js" defer></script>
+  <script src="assets/js/main.js?v=23" defer></script>
+</head>
+<body>
+  <div class="pt" aria-hidden="true">
+    <svg class="pt__svg" viewBox="0 0 100 100" preserveAspectRatio="none"><path class="pt__path" d="M0 0 H100 V100 H0 Z"/></svg>
+    <img class="pt__mark" src="assets/img/mark-dark.png" alt="" width="72" height="72">
+  </div>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="progress" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="brand" aria-label="BrandBhai — home">
+        <span class="brand__mark"><img class="on-light" src="assets/img/mark-dark.png" alt="" width="34" height="34"><img class="on-dark" src="assets/img/mark-light.png" alt="" width="34" height="34"></span>
+        <span>BrandBhai<span class="brand__dot">.</span></span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <span class="nav__pill" aria-hidden="true"></span>
+        <a href="index.html" class="nav__link">Home</a>
+        <a href="about.html" class="nav__link">About</a>
+        <a href="services.html" class="nav__link">Services</a>
+        <a href="gallery.html" class="nav__link">Gallery</a>
+        <a href="testimonials.html" class="nav__link">Reviews</a>
+        <a href="blog.html" class="nav__link">Blog</a>
+        <a href="contact.html" class="nav__link">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-btn theme-toggle" type="button" data-theme-toggle aria-label="Toggle dark mode" aria-pressed="false"><svg class="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg><svg class="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg></button>
+        <a href="contact.html" class="btn btn--sm" data-magnetic="0.25"><span class="btn__label">Book a Call</span><span class="btn__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+        <button class="icon-btn burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="drawer"><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <div class="drawer" id="drawer" aria-hidden="true">
+    <nav class="drawer__nav" aria-label="Mobile" tabindex="-1">
+      <a href="index.html" class="drawer__link"><small>01</small>Home</a>
+      <a href="about.html" class="drawer__link"><small>02</small>About</a>
+      <a href="services.html" class="drawer__link"><small>03</small>Services</a>
+      <a href="gallery.html" class="drawer__link"><small>04</small>Gallery</a>
+      <a href="testimonials.html" class="drawer__link"><small>05</small>Reviews</a>
+      <a href="blog.html" class="drawer__link"><small>06</small>Blog</a>
+      <a href="faq.html" class="drawer__link"><small>07</small>FAQ</a>
+      <a href="contact.html" class="drawer__link"><small>08</small>Contact</a>
+    </nav>
+    <div class="drawer__foot">
+      <a href="contact.html" class="btn btn--accent btn--block"><span class="btn__label">Book a discovery call</span><span class="btn__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap">
+        <a href="mailto:hello@brandbhai.in">hello@brandbhai.in</a>
+        <span class="muted">India &amp; Worldwide</span>
+      </div>
+    </div>
+  </div>
+
+  <main id="main">
+    <header class="page-hero" style="padding-bottom:clamp(32px, 5vw, 64px)">
+      <div class="hero__bg" aria-hidden="true"><div class="hero__grid"></div><div class="hero__glow"></div></div>
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a><span aria-hidden="true">/</span>
+          <span>Cookie Policy</span>
+        </nav>
+
+        <span class="page-hero__badge"><i aria-hidden="true" style="background:#4DA8E2"></i> TRANSPARENCY &amp; CONSENT</span>
+        <h1 class="page-hero__title page-hero__title--wide" data-split>
+          Cookie Policy &amp; <span class="serif hl">Tracking Technologies.</span>
+        </h1>
+
+        <div class="page-hero__meta-bar">
+          <div class="page-hero__meta-item"><b>Last Updated:</b> October 9, 2026</div>
+          <div class="page-hero__meta-item"><b>Consent Standard:</b> Opt-in Consent &amp; Zero Intrusive Profiling</div>
+        </div>
+      </div>
+    </header>
+
+    <div class="container section section--tight">
+      <div class="legal-container">
+        <aside class="legal-nav-wrap">
+          <h4>Contents</h4>
+          <nav class="legal-nav">
+            <a href="#what-are-cookies" class="is-active">1. What Are Cookies?</a>
+            <a href="#cookie-types">2. Categories of Cookies We Use</a>
+            <a href="#cookies-table">3. Active Cookies Table</a>
+            <a href="#capi-pixels">4. Server-Side CAPI &amp; Pixels</a>
+            <a href="#manage-preferences">5. Managing Your Preferences</a>
+          </nav>
+        </aside>
+
+        <div class="legal-body">
+          <div class="legal-callout">
+            <h4>Cookie Summary</h4>
+            <p>We use essential cookies to remember your theme preference (Dark/Light mode) and maintain smooth navigation. We only activate analytical or marketing pixels if you interact with ad funnels.</p>
+          </div>
+
+          <h2 id="what-are-cookies">1. What Are Cookies &amp; Local Storage?</h2>
+          <p>
+            Cookies are small text files placed on your device by websites you visit. In addition to HTTP cookies, modern web applications utilize browser <code>localStorage</code> and <code>sessionStorage</code> to store UI preferences (such as your chosen theme or animation settings) without making repeated network calls.
+          </p>
+
+          <h2 id="cookie-types">2. Categories of Cookies We Use</h2>
+          <ul>
+            <li><strong>Strictly Necessary:</strong> Essential for the website to function properly (e.g., maintaining theme state, security tokens, anti-spam honeypot checks).</li>
+            <li><strong>Performance &amp; Analytics:</strong> Anonymous telemetry measuring page load times, WebGL canvas frame rates, and aggregate engagement to improve user experience.</li>
+            <li><strong>Marketing &amp; Attribution:</strong> Cookies that attribute conversions from Meta Ads or Google Search to optimize ad efficiency without profiling sensitive private data.</li>
+          </ul>
+
+          <h2 id="cookies-table">3. Active Cookies &amp; Storage Keys Table</h2>
+          <div class="spec-table-wrap">
+            <table class="spec-table">
+              <thead>
+                <tr>
+                  <th>Key / Cookie</th>
+                  <th>Category</th>
+                  <th>Duration</th>
+                  <th>Purpose</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><code>brandbhai_theme</code></td>
+                  <td>Strictly Necessary</td>
+                  <td>Persistent</td>
+                  <td>Stores your selected Light or Dark visual theme</td>
+                </tr>
+                <tr>
+                  <td><code>bb_loaded</code></td>
+                  <td>Functional</td>
+                  <td>Session</td>
+                  <td>Ensures the opening logo intro only plays once per session</td>
+                </tr>
+                <tr>
+                  <td><code>_ga, _ga_*</code></td>
+                  <td>Analytics</td>
+                  <td>13 Months</td>
+                  <td>Google Analytics 4 anonymous aggregate visit metrics</td>
+                </tr>
+                <tr>
+                  <td><code>_fbp</code></td>
+                  <td>Marketing</td>
+                  <td>90 Days</td>
+                  <td>Meta Pixel &amp; Conversions API attribution validation</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h2 id="capi-pixels">4. Server-Side Conversions API (CAPI)</h2>
+          <p>
+            To protect user privacy against third-party cross-site tracking, BrandBhai utilizes direct server-to-server Conversions API (CAPI) endpoints. This architecture avoids intrusive third-party scripts on the client device while ensuring verified attribution.
+          </p>
+
+          <h2 id="manage-preferences">5. Managing Your Preferences</h2>
+          <p>
+            You can modify your cookie settings at any time via your browser preferences or by clearing your browser cache. Disabling cookies will not affect your ability to browse our website or schedule discovery calls with our studio.
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <a class="kinetic" href="contact.html" aria-label="Start a project with BrandBhai">
+      <span class="marquee" style="--speed:26s" aria-hidden="true"><span class="marquee__track"><span class="kinetic__item">Let’s build something <em class="serif">unforgettable</em><i>✦</i></span><span class="kinetic__item">Let’s build something <em class="serif">unforgettable</em><i>✦</i></span><span class="kinetic__item">Let’s build something <em class="serif">unforgettable</em><i>✦</i></span></span><span class="marquee__track"><span class="kinetic__item">Let’s build something <em class="serif">unforgettable</em><i>✦</i></span><span class="kinetic__item">Let’s build something <em class="serif">unforgettable</em><i>✦</i></span><span class="kinetic__item">Let’s build something <em class="serif">unforgettable</em><i>✦</i></span></span></span>
+    </a>
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <h2 class="footer-cta__title">Beauty shapes every message. <span class="serif">Let’s shape yours.</span></h2>
+          <a href="contact.html" class="btn btn--accent" data-magnetic="0.2"><span class="btn__label">Start a project</span><span class="btn__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+        </div>
+        <div class="newsletter">
+          <h3>Stay in touch</h3>
+          <p>Join our monthly memo on scaling brands, AI automation, and high-ROAS marketing.</p>
+          <form class="newsletter__form" novalidate>
+            <label class="sr-only" for="nl-email">Work email</label>
+            <input id="nl-email" class="newsletter__input" type="email" name="email" placeholder="Your work email" required autocomplete="email">
+            <button class="newsletter__btn" type="submit" aria-label="Subscribe"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+          </form>
+          <p class="newsletter__msg" role="status" aria-live="polite"></p>
+        </div>
+      </div>
+
+      <div class="footer-cols-wrap">
+        <div class="footer-backdrop-wordmark" aria-hidden="true">
+          <span>BRANDBHAI</span>
+        </div>
+        <div class="footer-cols">
+          <div class="footer-brand">
+            <a href="index.html" class="brand" aria-label="BrandBhai — home">
+              <span class="brand__mark"><img class="on-light" src="assets/img/mark-dark.png" alt="" width="34" height="34"><img class="on-dark" src="assets/img/mark-light.png" alt="" width="34" height="34"></span>
+              <span>BrandBhai<span class="brand__dot">.</span></span>
+            </a>
+            <p>Multidisciplinary digital powerhouse combining 24/7 AI Automation, High-Yield Performance Marketing, 4K Cinema, and Bespoke Web Architecture.</p>
+            <span class="loc-pill"><span class="status-pill__dot"></span>India &amp; Worldwide Operations</span>
+          </div>
+          <div class="footer-col">
+            <h4>Disciplines</h4>
+            <ul>
+              <li><a href="service-ai.html">AI &amp; WhatsApp Bots</a></li>
+              <li><a href="service-ads.html">Performance Marketing</a></li>
+              <li><a href="service-cinema.html">Photo, Video &amp; 3D Cinema</a></li>
+              <li><a href="service-web.html">Bespoke Web &amp; WebGL</a></li>
+              <li><a href="service-brand.html">Brand Identity &amp; Positioning</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Studio &amp; Insights</h4>
+            <ul>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="gallery.html">Case Studies</a></li>
+              <li><a href="testimonials.html">Client Reviews</a></li>
+              <li><a href="blog.html">Journal &amp; Insights</a></li>
+              <li><a href="faq.html">Frequently Asked</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Trust &amp; Legal</h4>
+            <ul>
+              <li><a href="privacy.html">Privacy Policy</a></li>
+              <li><a href="terms.html">Terms &amp; Conditions</a></li>
+              <li><a href="cookies.html">Cookie Policy</a></li>
+              <li><a href="sitemap.html">Sitemap Index</a></li>
+              <li><a href="mailto:hello@brandbhai.in">hello@brandbhai.in</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© <span data-year>2026</span> BrandBhai Studio. All rights reserved.</div>
+        <div class="footer-bottom__right">
+          <span>Crafted in New Delhi</span>
+          <a href="#main" class="to-top">Back to top <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg></a>
+        </div>
+      </div>
+    </div>
+    <!-- Finale: transparent image rises out of the wordmark as the page ends.
+         Swap assets/img/logo-full-light.webp/.png to change the logo. -->
+    
+  </footer>
+</body>
+</html>

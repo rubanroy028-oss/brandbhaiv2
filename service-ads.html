@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>High-ROAS Meta &amp; Google Ads — BrandBhai Growth Engine</title>
+  <meta name="description" content="Data-backed paid customer acquisition across Meta, Google Search, and YouTube. Creative testing sprints, CAPI server-side tracking, and aggressive scaling architectures.">
+  <meta name="theme-color" content="#F5F3EE">
+  <link rel="canonical" href="https://brandbhai.in/service-ads.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="BrandBhai">
+  <meta property="og:title" content="High-ROAS Meta &amp; Google Ads — BrandBhai Growth Engine">
+  <meta property="og:description" content="Turn paid ad spend into predictable, compounding revenue with high-converting creative sprints and server-side CAPI tracking.">
+  <meta property="og:image" content="assets/img/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+
+  <!-- Theme + motion flags -->
+  <script>
+    (function () {
+      var d = document.documentElement, t;
+      try { t = localStorage.getItem('brandbhai_theme'); } catch (e) {}
+      if (!t) t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      d.setAttribute('data-theme', t);
+      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) { d.classList.add('no-anim'); return; }
+      d.classList.add('anim');
+      try {
+        if (sessionStorage.getItem('bb_pt')) { sessionStorage.removeItem('bb_pt'); d.classList.add('pt-in'); }
+        else if (!sessionStorage.getItem('bb_loaded')) d.classList.add('has-preloader');
+      } catch (e) {}
+      setTimeout(function () { if (!window.__bb) { d.classList.remove('anim', 'has-preloader', 'pt-in'); d.classList.add('no-anim'); } }, 3500);
+    })();
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://images.unsplash.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,200..800&family=Geist:wght@300..700&family=Geist+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap">
+  <link rel="stylesheet" href="assets/css/style.css?v=23">
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.3.26/dist/lenis.min.js" defer></script>
+  <script src="assets/js/main.js?v=23" defer></script>
+</head>
+<body>
+  <div class="pt" aria-hidden="true">
+    <svg class="pt__svg" viewBox="0 0 100 100" preserveAspectRatio="none"><path class="pt__path" d="M0 0 H100 V100 H0 Z"/></svg>
+    <img class="pt__mark" src="assets/img/mark-dark.png" alt="" width="72" height="72">
+  </div>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="progress" aria-hidden="true"></div>
+  <div class="blueprint" aria-hidden="true"><div class="container"><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="brand" aria-label="BrandBhai — home">
+        <span class="brand__mark"><img class="on-light" src="assets/img/mark-dark.png" alt="" width="34" height="34"><img class="on-dark" src="assets/img/mark-light.png" alt="" width="34" height="34"></span>
+        <span>BrandBhai<span class="brand__dot">.</span></span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <span class="nav__pill" aria-hidden="true"></span>
+        <a href="index.html" class="nav__link">Home</a>
+        <a href="about.html" class="nav__link">About</a>
+        <a href="services.html" class="nav__link" aria-current="page">Services</a>
+        <a href="gallery.html" class="nav__link">Gallery</a>
+        <a href="testimonials.html" class="nav__link">Reviews</a>
+        <a href="blog.html" class="nav__link">Blog</a>
+        <a href="contact.html" class="nav__link">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-btn theme-toggle" type="button" data-theme-toggle aria-label="Toggle dark mode" aria-pressed="false"><svg class="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg><svg class="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg></button>
+        <a href="contact.html?service=ads" class="btn btn--sm" data-magnetic="0.25"><span class="btn__label">Scale Ads</span><span class="btn__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+        <button class="icon-btn burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="drawer"><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <div class="drawer" id="drawer" aria-hidden="true">
+    <nav class="drawer__nav" aria-label="Mobile" tabindex="-1">
+      <a href="index.html" class="drawer__link"><small>01</small>Home</a>
+      <a href="about.html" class="drawer__link"><small>02</small>About</a>
+      <a href="services.html" class="drawer__link" aria-current="page"><small>03</small>Services</a>
+      <a href="gallery.html" class="drawer__link"><small>04</small>Gallery</a>
+      <a href="testimonials.html" class="drawer__link"><small>05</small>Reviews</a>
+      <a href="blog.html" class="drawer__link"><small>06</small>Blog</a>
+      <a href="faq.html" class="drawer__link"><small>07</small>FAQ</a>
+      <a href="contact.html" class="drawer__link"><small>08</small>Contact</a>
+    </nav>
+    <div class="drawer__foot">
+      <a href="contact.html?service=ads" class="btn btn--accent btn--block"><span class="btn__label">Book a discovery call</span><span class="btn__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap">
+        <a href="mailto:hello@brandbhai.in">hello@brandbhai.in</a>
+        <span class="muted">India &amp; Worldwide</span>
+      </div>
+    </div>
+  </div>
+
+  <main id="main">
+    <section class="page-hero" aria-labelledby="ads-hero-title">
+      <div class="hero__bg" aria-hidden="true"><div class="hero__grid"></div><div class="hero__glow"></div></div>
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a><span aria-hidden="true">/</span>
+          <a href="services.html">Services</a><span aria-hidden="true">/</span>
+          <span>Performance Marketing</span>
+        </nav>
+
+        <span class="page-hero__badge"><i aria-hidden="true" style="background:#7AD3B5"></i> DISCIPLINE 02 · GROWTH &amp; MEDIA BUYING</span>
+        <h1 class="page-hero__title page-hero__title--wide" id="ads-hero-title" data-split>
+          High-ROAS Meta &amp; Google Ads <span class="serif hl-blue">Revenue Systems.</span>
+        </h1>
+
+        <div class="page-hero__row">
+          <div></div>
+          <p class="lead" data-reveal style="--d:300">
+            We don't buy empty clicks or vanity impressions. We build hyper-targeted, conversion-engineered media buying funnels backed by Hollywood-grade video ad creative, full-funnel CRO landing pages, and airtight CAPI server-side attribution.
+          </p>
+        </div>
+
+        <div class="stats" style="margin-top:clamp(48px,6vw,84px)">
+          <div class="stat" data-reveal><div class="stat__num">8.4<sup>X</sup></div><div class="stat__label">Average Blended ROAS</div><div class="stat__sub">Across Meta &amp; Google Ads</div></div>
+          <div class="stat" data-reveal style="--d:90"><div class="stat__num">₹<span data-count="120">120</span><sup>Cr+</sup></div><div class="stat__label">Revenue Generated</div><div class="stat__sub">D2C, Tech &amp; Luxury Clients</div></div>
+          <div class="stat" data-reveal style="--d:180"><div class="stat__num">&lt; 24<sup>h</sup></div><div class="stat__label">Creative Iteration Velocity</div><div class="stat__sub">Rapid A/B Hook Testing</div></div>
+          <div class="stat" data-reveal style="--d:270"><div class="stat__num">100<sup>%</sup></div><div class="stat__label">Server-Side CAPI Tracking</div><div class="stat__sub">Zero iOS 14.5+ attribution loss</div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Capabilities Grid -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <span class="eyebrow">The Engine</span>
+            <h2 class="d2" data-split>High-yield advertising <span class="serif">architecture</span></h2>
+          </div>
+          <div class="section-head__side" data-reveal><p class="lead">From initial hook testing to aggressive seven-figure daily budgets.</p></div>
+        </div>
+
+        <div class="svc-grid">
+          <div class="svc-card" data-reveal>
+            <span class="svc-card__num">01</span>
+            <div class="svc-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 20V10M12 20V4M6 20v-6"/></svg></div>
+            <h3>Meta Ads (Instagram &amp; Facebook)</h3>
+            <p>Advanced Advantage+ campaign structures, bespoke UGC and 4K cinema video ads, scroll-stopping 3-second hooks, and dynamic retargeting loops.</p>
+            <div class="svc-card__tags"><span>Advantage+</span><span>Reels Video Hooks</span><span>Broad Targeting</span></div>
+          </div>
+
+          <div class="svc-card" data-reveal style="--d:100">
+            <span class="svc-card__num">02</span>
+            <div class="svc-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div>
+            <h3>Google Search &amp; Performance Max</h3>
+            <p>High-intent keyword capture, negative match hygiene, Performance Max asset groups, and dynamic search ads with maximum conversion value bidding.</p>
+            <div class="svc-card__tags"><span>P-Max</span><span>Search Intent</span><span>tROAS Bidding</span></div>
+          </div>
+
+          <div class="svc-card" data-reveal style="--d:200">
+            <span class="svc-card__num">03</span>
+            <div class="svc-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg></div>
+            <h3>YouTube &amp; OTT Video Action</h3>
+            <p>Cinema-grade 15s and 30s direct-response video ads for YouTube, capturing high-net-worth audiences with unskippable storytelling and instant CTA overlays.</p>
+            <div class="svc-card__tags"><span>YouTube Ads</span><span>TrueView</span><span>Brand Lift</span></div>
+          </div>
+
+          <div class="svc-card" data-reveal style="--d:300">
+            <span class="svc-card__num">04</span>
+            <div class="svc-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></div>
+            <h3>Server-Side CAPI &amp; Triple Attribution</h3>
+            <p>Never fly blind again. We install server-to-server Conversions API, Google Tag Manager server containers, and Triple Whale / Northbeam attribution suites.</p>
+            <div class="svc-card__tags"><span>Meta CAPI</span><span>Server GTM</span><span>Triple Whale</span></div>
+          </div>
+
+          <div class="svc-card" data-reveal style="--d:400">
+            <span class="svc-card__num">05</span>
+            <div class="svc-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
+            <h3>Landing Page &amp; Offer CRO</h3>
+            <p>Traffic is only half the equation. We design and A/B test custom high-velocity landing pages with sticky CTA bars, social proof popups, and 1-click checkout flows.</p>
+            <div class="svc-card__tags"><span>Sub-second Load</span><span>Sticky Mobile CTA</span><span>Offer Bundles</span></div>
+          </div>
+
+          <div class="svc-card" data-reveal style="--d:500">
+            <span class="svc-card__num">06</span>
+            <div class="svc-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></div>
+            <h3>Transparent Live KPI Dashboards</h3>
+            <p>No smoke and mirrors or confusing monthly spreadsheets. You get live 24/7 access to executive dashboards displaying daily spend, blended CAC, MER, and net profit.</p>
+            <div class="svc-card__tags"><span>Looker Studio</span><span>Real-Time MER</span><span>Slack Daily Digests</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Case Study Snapshot -->
+    <section class="section" style="background:var(--bg-2)">
+      <div class="container">
+        <div class="case-split" data-reveal>
+          <div class="case-split__img">
+            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="E-Commerce Fashion Footwear Campaign">
+          </div>
+          <div>
+            <span class="eyebrow">Case Study Snapshot</span>
+            <h3 class="d2" style="margin-bottom:16px">D2C Footwear: Scaled from ₹18L/mo to ₹1.8Cr/mo at 6.8x ROAS</h3>
+            <p style="margin-bottom:20px;color:var(--text);font-size:1.05rem">
+              By replacing boring static catalog ads with 4K cinematic product reveals and rapid-fire UGC hook variations, we reduced customer acquisition costs by 46% while scaling monthly ad spend 10x profitably.
+            </p>
+            <ul style="margin-bottom:28px;display:flex;flex-direction:column;gap:10px">
+              <li style="display:flex;gap:10px;align-items:center;font-weight:600;color:var(--ink)">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="width:18px;height:18px;color:#10B981"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>
+                +680% Blended ROAS across Meta &amp; Google Ads
+              </li>
+              <li style="display:flex;gap:10px;align-items:center;font-weight:600;color:var(--ink)">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="width:18px;height:18px;color:#10B981"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>
+                -46% Lower Customer Acquisition Cost (CAC)
+              </li>
+              <li style="display:flex;gap:10px;align-items:center;font-weight:600;color:var(--ink)">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="width:18px;height:18px;color:#10B981"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>
+                Over 65,000+ new verified customers acquired
+              </li>
+            </ul>
+            <a href="contact.html?service=ads" class="btn btn--accent"><span class="btn__label">Audit Your Ad Accounts</span><span class="btn__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bottom CTA -->
+    <section class="section section--tight" style="background:var(--surface);border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+      <div class="container" style="text-align:center;max-width:820px">
+        <span class="eyebrow">Ready to Scale Profitably?</span>
+        <h2 class="d1" style="margin-bottom:20px">Let’s engineer your <span class="serif">growth machine</span></h2>
+        <p class="lead" style="margin-bottom:32px">Request a free confidential Growth Audit. We will inspect your pixel setup, creative fatigue, and ad account leaks.</p>
+        <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap">
+          <a href="contact.html?service=ads" class="btn btn--accent"><span class="btn__label">Book Free Ad Audit</span><span class="btn__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+          <a href="gallery.html" class="btn"><span class="btn__label">View Our Case Studies</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="kinetic" href="contact.html" aria-label="Start a project with BrandBhai">
+      <span class="marquee" style="--speed:26s" aria-hidden="true"><span class="marquee__track"><span class="kinetic__item">Let’s build something <em class="serif">unforgettable</em><i>✦</i></span><span class="kinetic__item">Let’s build something <em class="serif">unforgettable</em><i>✦</i></span><span class="kinetic__item">Let’s build something <em class="serif">unforgettable</em><i>✦</i></span></span><span class="marquee__track"><span class="kinetic__item">Let’s build something <em class="serif">unforgettable</em><i>✦</i></span><span class="kinetic__item">Let’s build something <em class="serif">unforgettable</em><i>✦</i></span><span class="kinetic__item">Let’s build something <em class="serif">unforgettable</em><i>✦</i></span></span></span>
+    </a>
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <h2 class="footer-cta__title">Beauty shapes every message. <span class="serif">Let’s shape yours.</span></h2>
+          <a href="contact.html" class="btn btn--accent" data-magnetic="0.2"><span class="btn__label">Start a project</span><span class="btn__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+        </div>
+        <div class="newsletter">
+          <h3>Stay in touch</h3>
+          <p>Join our monthly memo on scaling brands, AI automation, and high-ROAS marketing.</p>
+          <form class="newsletter__form" novalidate>
+            <label class="sr-only" for="nl-email">Work email</label>
+            <input id="nl-email" class="newsletter__input" type="email" name="email" placeholder="Your work email" required autocomplete="email">
+            <button class="newsletter__btn" type="submit" aria-label="Subscribe"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+          </form>
+          <p class="newsletter__msg" role="status" aria-live="polite"></p>
+        </div>
+      </div>
+
+      <div class="footer-cols-wrap">
+        <div class="footer-backdrop-wordmark" aria-hidden="true">
+          <span>BRANDBHAI</span>
+        </div>
+        <div class="footer-cols">
+          <div class="footer-brand">
+            <a href="index.html" class="brand" aria-label="BrandBhai — home">
+              <span class="brand__mark"><img class="on-light" src="assets/img/mark-dark.png" alt="" width="34" height="34"><img class="on-dark" src="assets/img/mark-light.png" alt="" width="34" height="34"></span>
+              <span>BrandBhai<span class="brand__dot">.</span></span>
+            </a>
+            <p>Multidisciplinary digital powerhouse combining 24/7 AI Automation, High-Yield Performance Marketing, 4K Cinema, and Bespoke Web Architecture.</p>
+            <span class="loc-pill"><span class="status-pill__dot"></span>India &amp; Worldwide Operations</span>
+          </div>
+          <div class="footer-col">
+            <h4>Disciplines</h4>
+            <ul>
+              <li><a href="service-ai.html">AI &amp; WhatsApp Bots</a></li>
+              <li><a href="service-ads.html">Performance Marketing</a></li>
+              <li><a href="service-cinema.html">Photo, Video &amp; 3D Cinema</a></li>
+              <li><a href="service-web.html">Bespoke Web &amp; WebGL</a></li>
+              <li><a href="service-brand.html">Brand Identity &amp; Positioning</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Studio &amp; Insights</h4>
+            <ul>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="gallery.html">Case Studies</a></li>
+              <li><a href="testimonials.html">Client Reviews</a></li>
+              <li><a href="blog.html">Journal &amp; Insights</a></li>
+              <li><a href="faq.html">Frequently Asked</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Trust &amp; Legal</h4>
+            <ul>
+              <li><a href="privacy.html">Privacy Policy</a></li>
+              <li><a href="terms.html">Terms &amp; Conditions</a></li>
+              <li><a href="cookies.html">Cookie Policy</a></li>
+              <li><a href="sitemap.html">Sitemap Index</a></li>
+              <li><a href="mailto:hello@brandbhai.in">hello@brandbhai.in</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© <span data-year>2026</span> BrandBhai Studio. All rights reserved.</div>
+        <div class="footer-bottom__right">
+          <span>Crafted in New Delhi</span>
+          <a href="#main" class="to-top">Back to top <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg></a>
+        </div>
+      </div>
+    </div>
+    <!-- Finale: transparent image rises out of the wordmark as the page ends.
+         Swap assets/img/logo-full-light.webp/.png to change the logo. -->
+    
+  </footer>
+</body>
+</html>
